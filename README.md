@@ -2,7 +2,7 @@
 Public
 
 ### Purpose
-```e-commerce-feature-engineering-nlp``` is a free-form data exploration and NLP project based off real e-commerce
+```e-commerce-feature-engineering-nlp``` is a free-form data exploration and NLP project based on real e-commerce
 reviews from a women's clothing company. Given thousands of customer orders with reviews, what features of importance
 for the business can be predicted? 
 
@@ -18,7 +18,7 @@ Because this is real commercial data, it has been anonymized, and references to 
 and body have been replaced with “retailer”.
 
 Content:
-This dataset includes 23486 rows and 10 feature variables. Each row corresponds to a customer review, and includes
+This dataset includes 23486 rows and 10 feature variables. Each row corresponds to a customer review and includes
 the variables:
 
 * Clothing ID: Integer Categorical variable that refers to the specific piece being reviewed.
@@ -35,3 +35,10 @@ the variables:
 Acknowledgements:
 Anonymous but real source
 ```
+
+### Methodology & Summary
+In this notebook, I use a variety of tools to explore, clean, and engineer the data to be ready for machine learning.
+I also preprocess the written reviews and perform sentiment analysis on them to get a numerical representation
+of their sentiments on the product they are reviewing. Lastly, I use an Extreme Gradient Boosting model to 
+predict ratings users have based on information about their order and how they wrote their reviews. I cross-validate
+the model on subsets of the data using K-folds, and conclude with quantifying the accuracy of the model.
