@@ -11,13 +11,13 @@ for the business can be predicted?
 From [Kaggle](https://www.kaggle.com/datasets/nicapotato/womens-ecommerce-clothing-reviews):
 
 ```
-### Context
+Context:
 Welcome. This is a Women’s Clothing E-Commerce dataset revolving around the reviews written by customers.
 Its nine supportive features offer a great environment to parse out the text through its multiple dimensions.
 Because this is real commercial data, it has been anonymized, and references to the company in the review text
 and body have been replaced with “retailer”.
 
-### Content
+Content:
 This dataset includes 23486 rows and 10 feature variables. Each row corresponds to a customer review, and includes
 the variables:
 
@@ -32,6 +32,6 @@ the variables:
 * Department Name: Categorical name of the product department name.
 * Class Name: Categorical name of the product class name.
 
-# Acknowledgements
+Acknowledgements:
 Anonymous but real source
 ```
